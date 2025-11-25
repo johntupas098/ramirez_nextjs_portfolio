@@ -7,10 +7,15 @@ export default function Hero() {
       className="relative flex min-h-[90vh] items-center justify-center bg-gradient-to-br from-[#4f46e5] via-[#7c3aed] to-[#ec4899] px-4"
     >
       <div className="mx-auto flex max-w-4xl flex-col items-center text-center text-white">
-        {/* circle emoji */}
-        <div className="mb-6 flex h-20 w-20 items-center justify-center rounded-full border border-white/40 bg-white/10 shadow-lg">
-          <span className="text-3xl">👋</span>
-        </div>
+       <div className="mb-6 flex h-32 w-32 items-center justify-center rounded-full border border-white/40 bg-white/10 shadow-lg overflow-hidden">
+  <Image
+    src="/profilepic.JPG"
+    width={128}
+    height={128}
+    alt="profile"
+    className="object-cover"
+  />
+</div>
 
         <p className="text-sm uppercase tracking-[0.3em] text-white/80">
           Hi, I&apos;m
@@ -29,7 +34,6 @@ export default function Hero() {
           professional environment.
         </p>
 
-        {/* buttons */}
         <div className="mt-8 flex flex-wrap justify-center gap-4">
           <a
             href="#projects"
@@ -45,31 +49,29 @@ export default function Hero() {
           </a>
         </div>
 
-        {/* icons row – simple version using emoji */}
         <div className="mt-10 flex items-center gap-6 text-xl">
           <a
             href="https://github.com/your-username"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20"
           >
-            <span>🐙</span>
+           <Image src="/icons/git.svg" width={24} height={24} alt="Github" />
           </a>
           <a
             href="https://www.linkedin.com/in/your-username"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20"
           >
-            <span>in</span>
+           <Image src="/icons/linked.svg" width={24} height={24} alt="LinkedIn" />
           </a>
           <a
             href="mailto:johnwayne.ramirez-23@cpu.edu.ph"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20"
           >
-            <span>✉️</span>
+            <Image src="/icons/mail.svg" width={24} height={24} alt="Email" />
           </a>
         </div>
 
-        {/* arrow down */}
         <a href="#about" className="mt-10 text-white/80 text-2xl">
           ↓
         </a>
