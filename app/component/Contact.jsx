@@ -37,7 +37,6 @@ export default function Contact() {
         </p>
 
         <div className="mt-10 grid gap-10 md:grid-cols-[1.2fr,1.8fr]">
-          {/* info */}
           <div className="space-y-5">
             <h3 className="text-lg font-semibold text-pink-400">Contact Information</h3>
             <p className="text-sm text-slate-600">
@@ -78,7 +77,6 @@ export default function Contact() {
             </div>
           </div>
 
-          {/* form */}
           <form onSubmit={handleSubmit} className="space-y-4 text-sm">
             <div className="grid gap-4 md:grid-cols-2">
               <div>
