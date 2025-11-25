@@ -58,7 +58,7 @@ export default function Hero() {
            <Image src="/icons/git.svg" width={24} height={24} alt="Github" />
           </a>
           <a
-            href="https://linkedin.com/in/john-wayne-ramirez-05984a392"
+            href="https://www.linkedin.com/in/john-wayne-ramirez-05984a392/"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20"
           >
