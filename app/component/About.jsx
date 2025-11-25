@@ -4,12 +4,11 @@ export default function About() {
   return (
     <section id="about" className="bg-white px-4 py-20">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-center text-3xl font-semibold">About Me</h2>
+        <h2 className="text-center text-3xl font-semibold text-purple-400" >About Me</h2>
 
         <div className="mt-10 grid gap-10 md:grid-cols-[1.5fr,1fr]">
-          {/*Hello*/}
           <div>
-            <h3 className="text-xl font-semibold">
+            <h3 className="text-xl font-semibold text-purple-400">
               Passionate About Technology &amp; Innovation
             </h3>
             <p className="mt-4 text-sm leading-relaxed text-slate-700">
@@ -46,12 +45,10 @@ export default function About() {
             </div>
           </div>
 
-          {/* image */}
           <div className="flex justify-center">
             <div className="relative h-72 w-full max-w-sm overflow-hidden rounded-3xl shadow-lg">
-              {/* Use your own photo here */}
               <Image
-                src="/about-placeholder.jpg"
+                src="/work.jpg"
                 alt="Workspace"
                 fill
                 className="object-cover"
