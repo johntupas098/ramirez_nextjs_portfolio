@@ -1,3 +1,4 @@
+import Image from "next/image";
 export default function Footer() {
   return (
     <footer className="bg-slate-900 text-slate-200">
@@ -40,14 +41,14 @@ export default function Footer() {
           <h4 className="text-sm font-semibold">Connect</h4>
           <div className="mt-3 flex gap-3">
             <a
-              href="https://github.com/your-username"
+              href="https://github.com/johntupas098"
               target="_blank"
               className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-sm hover:bg-slate-700"
             >
-              🐙
+              <Image src="/icons/git.svg" width={24} height={24} alt="Github" />
             </a>
             <a
-              href="https://www.linkedin.com/in/your-username"
+              href="https://www.linkedin.com/in/john-wayne-ramirez-05984a392/"
               target="_blank"
               className="flex h-9 w-9 items-center justify-center rounded-full bg-slate-800 text-sm hover:bg-slate-700"
             >
