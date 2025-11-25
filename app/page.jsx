@@ -1,19 +1,19 @@
-import Image from "next/image";
+import Hero from "./component/Hero";
+import About from "./component/About";
+import Skills from "./component/Skills";
+import Projects from "./component/Projects";
+import Contact from "./component/Contact";
+import Footer from "./component/Footer";
 
 export default function Home() {
   return (
-   <div className="bg-white h-[100vh] w-full">
-
-        <div className="flex items-center justify-center flex-col gap-[25x]"> 
-            <Image
-            src="/profile.png"
-            width={500}
-            height={500}
-            alt="profile"
-            />
-            <h2 className="text-black text-[60px] font-bold">Wayne Ramirez</h2>
-            <p className="max-w-[500px] w-full text-black">siomai rice lover</p>
-        </div>
-    </div>
+    <main className="pt-16">
+      <Hero />
+      <About />
+      <Skills />
+      <Projects />
+      <Contact />
+      <Footer />
+    </main>
   );
 }

@@ -6,6 +6,7 @@ return <div>
     <h1>Wayne</h1>
     <nav>
         <Link href="/blog">Blog</Link>
+        
         <Link href="/contact">Contact</Link>
     </nav>
     </div>
