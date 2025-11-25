@@ -51,7 +51,7 @@ export default function Hero() {
 
         <div className="mt-10 flex items-center gap-6 text-xl">
           <a
-            href="https://github.com/your-username"
+            href="https://github.com/johntupas098"
             target="_blank"
             className="flex h-10 w-10 items-center justify-center rounded-full bg-white/10 hover:bg-white/20"
           >
