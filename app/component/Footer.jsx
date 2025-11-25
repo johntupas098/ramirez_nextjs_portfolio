@@ -65,7 +65,7 @@ export default function Footer() {
       </div>
 
       <div className="border-t border-slate-800 py-4 text-center text-xs text-slate-500">
-        Made with <span className="text-pink-500">♥</span> by John Wayne T.
+        Made with by John Wayne T.
         Ramirez © 2025
       </div>
     </footer>
