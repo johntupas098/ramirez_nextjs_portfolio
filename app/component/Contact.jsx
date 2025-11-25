@@ -31,7 +31,7 @@ export default function Contact() {
   return (
     <section id="contact" className="bg-slate-50 px-4 py-20">
       <div className="mx-auto max-w-5xl">
-        <h2 className="text-center text-3xl font-semibold">Get In Touch</h2>
+        <h2 className="text-center text-3xl font-semibold text-pink-400">Get In Touch</h2>
         <p className="mt-3 text-center text-sm text-slate-600">
           Have a project in mind or want to collaborate? Feel free to reach out!
         </p>
@@ -39,7 +39,7 @@ export default function Contact() {
         <div className="mt-10 grid gap-10 md:grid-cols-[1.2fr,1.8fr]">
           {/* info */}
           <div className="space-y-5">
-            <h3 className="text-lg font-semibold">Contact Information</h3>
+            <h3 className="text-lg font-semibold text-pink-400">Contact Information</h3>
             <p className="text-sm text-slate-600">
               I&apos;m always open to discussing new projects, creative ideas,
               or opportunities to be part of your vision.
@@ -52,7 +52,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-slate-500">Email</p>
-                  <p>johnwayne.ramirez-23@cpu.edu.ph</p>
+                  <p className="text-pink-300">johnwayne.ramirez-23@cpu.edu.ph</p>
                 </div>
               </div>
 
@@ -62,7 +62,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-slate-500">Phone</p>
-                  <p>+63 961 013 9726</p>
+                  <p className="text-pink-300">+63 961 013 9726</p>
                 </div>
               </div>
 
@@ -72,7 +72,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-slate-500">Location</p>
-                  <p>Jaro, Iloilo City, Iloilo</p>
+                  <p className="text-pink-300">Jaro, Iloilo City, Iloilo</p>
                 </div>
               </div>
             </div>
