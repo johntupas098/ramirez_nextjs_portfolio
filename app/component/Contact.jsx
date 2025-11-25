@@ -62,7 +62,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <p className="text-xs font-medium text-slate-500">Phone</p>
-                  <p>+63 912 345 6789</p>
+                  <p>+63 961 013 9726</p>
                 </div>
               </div>
 

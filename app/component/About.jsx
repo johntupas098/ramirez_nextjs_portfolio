@@ -7,7 +7,7 @@ export default function About() {
         <h2 className="text-center text-3xl font-semibold">About Me</h2>
 
         <div className="mt-10 grid gap-10 md:grid-cols-[1.5fr,1fr]">
-          {/* text */}
+          {/*Hello*/}
           <div>
             <h3 className="text-xl font-semibold">
               Passionate About Technology &amp; Innovation
