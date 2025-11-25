@@ -15,7 +15,7 @@ interface RootLayoutProps {
 
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
-    <html lang="en">
+    <html lang="en" className="light">
       <body className="bg-slate-50 text-slate-900">
         <Navbar />
         {children}
@@ -23,3 +23,4 @@ export default function RootLayout({ children }: RootLayoutProps) {
     </html>
   );
 }
+
